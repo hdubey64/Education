@@ -76,11 +76,16 @@ nav ul {
 .login {
    /* margin-left: 10px; */
    text-decoration: none;
-   border: 2px solid var(--bottonColor);
+   border: 5px solid var(--bottonColor);
    border-radius: 100px;
-   padding: 5px 15px;
+   padding: 1px 12px;
    background-color: var(--bottonColor);
    color: white;
    font-size: 1.1rem;
    font-weight: 600;
+}
+.login:hover {
+   border: 5px solid var(--bottonColor);
+   background-color: var(--whitecolor);
+   color: var(--bottonColor);
 }
