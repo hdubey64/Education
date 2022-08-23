@@ -1,6 +1,8 @@
-/* :root {
+:root {
    --h1: var(1.1rem);
-}  */
+   --bottonColor: #fe5244;
+   --whitecolor: #ffffff;
+}
 * {
    margin: 0;
    padding: 0;
@@ -74,10 +76,10 @@ nav ul {
 .login {
    /* margin-left: 10px; */
    text-decoration: none;
-   border: 2px solid #fe5244;
+   border: 2px solid var(--bottonColor);
    border-radius: 100px;
    padding: 5px 15px;
-   background-color: #fe5244;
+   background-color: var(--bottonColor);
    color: white;
    font-size: 1.1rem;
    font-weight: 600;
