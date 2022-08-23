@@ -89,3 +89,14 @@ nav ul {
    background-color: var(--whitecolor);
    color: var(--bottonColor);
 }
+.burger {
+   display: none;
+   cursor: pointer;
+}
+.burger div {
+   width: 25px;
+   height: 2px;
+   background-color: var(--bottonColor);
+   margin: 5px;
+   transition: all 0.3 ease;
+}
