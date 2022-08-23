@@ -15,20 +15,19 @@ body {
 header {
    border-bottom: 1px solid #e4e4e4;
    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
-   /* z-index: 1000; */
+   z-index: 1000;
    position: sticky;
 }
 section {
    margin: 25px 0;
    padding: 10px 0;
-   /* border: 2px solid black; */
-   height: 80vh;
+   height: 90vh;
 }
 
 nav {
    display: flex;
    justify-content: space-between;
-
+   position: sticky;
    align-items: center;
 }
 .edu {
@@ -104,23 +103,17 @@ nav ul {
    margin: 5px;
    transition: all 0.3 ease;
 }
-/* .heroSection {
-   display: flex;
-} */
 .contant {
-   /* border: 1px solid green; */
    padding: 20px;
 }
-
 .contant1 {
-   /* border: 1px solid red; */
-   padding: 10px;
-   margin: 25px 0;
-   height: 65vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
 }
 .contant2 {
-   padding: 10px 30px;
-   /* margin: 10px 0; */
+   padding: 20px;
 }
 h1 {
    font-size: 4rem;
@@ -131,10 +124,9 @@ h2 {
    display: flex;
    align-items: center;
    justify-content: center;
-   padding-top: 0;
    font-size: 3rem;
    font-weight: 700;
-   margin-bottom: 50px;
+   padding-bottom: 50px;
 }
 h3 {
    font-size: 2rem;
@@ -151,7 +143,6 @@ p {
    font-weight: 500;
    font-size: 1.2rem;
    padding: 20px 20px 20px 0;
-   margin: 20px 0;
 }
 .botton {
    font-family: "Montserrat Alternates", sans-serif;
