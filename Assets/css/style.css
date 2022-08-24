@@ -22,6 +22,7 @@ section {
    margin: 25px 0;
    padding: 10px 0;
    height: 90vh;
+   border: 1px solid green;
 }
 
 nav {
@@ -104,16 +105,18 @@ nav ul {
    transition: all 0.3 ease;
 }
 .contant {
-   padding: 20px;
+   padding: 25px;
+   border: 1px solid orangered;
 }
 .contant1 {
    display: flex;
-   justify-content: center;
    align-items: center;
    padding: 20px;
+   border: 1px solid orangered;
 }
 .contant2 {
    padding: 20px;
+   border: 1px solid orangered;
 }
 h1 {
    font-size: 4rem;
@@ -126,7 +129,7 @@ h2 {
    justify-content: center;
    font-size: 3rem;
    font-weight: 700;
-   padding-bottom: 50px;
+   padding-bottom: 20px;
 }
 h3 {
    font-size: 2rem;
@@ -163,4 +166,99 @@ p {
 }
 .know {
    margin-bottom: 10px;
+}
+.box {
+   background-image: url(/Assets/Image/eduction.png);
+   background-size: 80vh;
+   background-position: center;
+   background-repeat: no-repeat;
+
+   border: 1px solid orangered;
+   height: 80vh;
+}
+.box1 {
+   height: 80vh;
+   background-color: rgb(0, 0, 0);
+   opacity: 0.8;
+}
+
+.subContant {
+   padding: 10px;
+   border: 1px solid orangered;
+   height: 80vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   justify-items: center;
+}
+.subContant h2 {
+   font-size: 5rem;
+   color: white;
+}
+.subContant p {
+   color: white;
+   padding: 0;
+   margin: 0;
+   font-size: 2rem;
+   opacity: 0.8;
+   margin-bottom: 20px;
+}
+.abcd {
+   padding: 25px;
+   margin: 40px auto;
+}
+.placeholders {
+   font-size: larger;
+   padding: 20px 30px;
+   border-radius: 5px;
+}
+.email {
+   align-items: center;
+}
+.botton1 {
+   font-family: "Montserrat Alternates", sans-serif;
+   text-decoration: none;
+   border: 3px solid var(--bottonColor);
+   border-radius: 100px;
+   padding: 8px 21px;
+   background-color: var(--bottonColor);
+   color: white;
+   font-size: 2rem;
+   font-weight: 600;
+   margin: 20px 0;
+}
+footer {
+   background-color: black;
+   color: white;
+}
+.abcd1 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+h5 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 3rem;
+   font-weight: 700;
+   padding-bottom: 20px;
+}
+.social1 {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+}
+.social-links {
+   display: flex;
+   justify-content: space-between;
+   width: 50%;
+}
+
+.social-links li {
+   list-style: none;
+}
+.social ul {
+   padding-left: 0;
 }
